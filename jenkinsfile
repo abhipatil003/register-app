@@ -1,4 +1,4 @@
-piprline{
+pipeline{
    agent { label 'jenkins-agent' }
    tools{
         jdk 'java-17'
